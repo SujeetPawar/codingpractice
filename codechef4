@@ -1,0 +1,17 @@
+FIT(258)1st attempt
+//solution
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	int x,p;
+	for(int i=0;i<t;i++){
+	    cin>>x;
+	    p = (2*x)*5;
+	   cout<<p<<endl;
+	}
+	return 0;
+}
