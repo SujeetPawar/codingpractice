@@ -1,0 +1,30 @@
+Given an array A[] of N elements. The task is to count number of even and odd elements in the array.(easy level)
+//solution
+class Solution{
+    public:
+    /*Function to count even and odd elements in the array
+    * arr : Array with its elements
+    * sizeof_array : number of array elements
+    * countOdd : variable to count number of odd elements
+    * countEven : variable to count number of even elements
+    */
+    void countOddEven(int arr[], int sizeof_array)
+    {
+        
+        // your code here
+       int even=0 ;
+       int odd = 0;
+       int t = sizeof_array;
+       for(int i=0; i <t; i++)
+       {
+           if(arr[i] %2 == 0){
+               even++;
+           }
+           else{
+               odd++;
+           }
+       }
+       cout<<odd<<" "<<even<<endl;
+        
+    }
+};
