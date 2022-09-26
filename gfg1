@@ -1,4 +1,4 @@
-You are given an array A of size N. You need to print elements of A in alternate order (starting from index 0).
+You are given an array A of size N. You need to print elements of A in alternate order (starting from index 0).(basic)
 //solution
 // ar[] is the array 
 // n is the number of elements in array.
