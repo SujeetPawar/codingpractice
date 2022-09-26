@@ -1,0 +1,13 @@
+SUMNEQ(592)1st attempt
+//solution
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int n,count;
+	cin>>n;
+	count = n-1;
+	cout<<count;
+	return 0;
+}
