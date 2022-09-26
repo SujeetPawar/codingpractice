@@ -1,0 +1,23 @@
+CHEFBOTTLE(662)2attempts
+//solution
+
+#include <iostream>
+using namespace std;
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	int i,n,x,k;
+	for(i=1;i<=t;i++)
+	{
+	    cin>>n>>x>>k;
+	    k/=x;
+	    if(n<k)
+	    {
+	        cout<<n<<"\n";
+	    }
+	    else
+	    cout<<k<<"\n";
+	}
+	return 0;
+}
