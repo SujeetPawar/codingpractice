@@ -1,4 +1,4 @@
- Find the Duplicate Number 2nd with help of discussion forum still not clear but using binary search 
+ Find the Duplicate Number 2nd with help of discussion forum still not clear but using binary search medium level
      int findDuplicate(vector<int>& nums) {
         int low = 1, high = nums.size() - 1, cnt;
         
