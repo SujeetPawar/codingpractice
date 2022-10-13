@@ -1,0 +1,10 @@
+shuffle array just needed to push the number catch is index
+easy with 1st attempt
+    vector<int> shuffle(vector<int>& nums, int n) {
+    vector <int> v;
+        for(int i =0; i<n;i++){
+            v.push_back(nums[i]);
+            v.push_back(nums[n+i]);
+        }
+        return v;
+    }
