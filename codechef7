@@ -1,0 +1,28 @@
+Problem Code:
+TODOLIST 580 1st attempt
+<---------------answer------------------>
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int T,N,D;
+	cin>>T;
+	for(int i=0;i<T;i++)
+	{
+	    int count =0;
+	    cin>>N;
+	    for(int j = 0; j<N; j++)
+	    {
+	        cin>>D;
+	        if(D>=1000)
+	        {
+	            count=count+1;
+	       }
+	    }
+	    cout<<count<<endl;
+	}
+
+
+	return 0;
+}
